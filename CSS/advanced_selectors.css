@@ -1,0 +1,21 @@
+/* * selectors it is applicable to all tags */
+*{
+    color: royalblue;
+}
+/* Decendent Selectors */
+/* ol is parent and li is child */
+ol li{
+    background: salmon;
+}
+/* Adjacent Selectors */
+/* for all ul tag adjacent to h2 */
+h2+ul{
+    background: black;
+}
+/* Attribute selectors */
+input[type]{
+    color: brown;
+}
+a[href]{
+    background: chartreuse;
+}
