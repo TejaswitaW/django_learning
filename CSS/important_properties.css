@@ -1,0 +1,21 @@
+/* font-family */
+body{
+    font-family: Arial;
+    font-weight: 700;
+}
+/* now it is double than the body font */
+/* span{
+    font-size: 2.0em;
+} */
+p{
+    line-height: 2.5;
+}
+/* alignment */
+p{
+    /* text-align: center; */
+    text-align: left;
+}
+p{
+    text-decoration: underline;
+    /* text-decoration: line-through; */
+}
