@@ -1,0 +1,27 @@
+/* style applied to body tag i.e parent is automatically applied to its child classes, this is 
+called inheritance in css */
+body{
+    background: aquamarine;
+    color: crimson;
+}
+/* speficity in CSS li text will get following color not color defined for body tag */
+li{
+    color: darkblue;
+}
+/* make all checked checkboxes to have left margin of 50px */
+input:checked{
+    margin-left: 50px;
+}
+/* make the first letter of the element with id="sepecial" with green color and 100px font size */
+#special::first-letter{
+    font-size: 50px;
+}
+/* make h1 element color change to white when hovered and give 10px solid red border */
+h1:hover{
+    color: darkolivegreen;
+    border: 10px red solid;
+}
+/* make all <a> elements that have been visited with yellow color */
+a:visited{
+    color:yellow
+}
