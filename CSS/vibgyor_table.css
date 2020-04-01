@@ -1,0 +1,36 @@
+.tab{
+    margin: auto;
+}
+h1{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+}
+td{
+    height: 300px;
+    width: 150px;
+    /* border: seashell 20px solid; */
+    /* margin: 50px; */
+    /* font-family: 'Caveat', cursive; */
+}
+#one{
+    background: violet;
+    text-align: end;
+}
+#two{
+    background: indigo;
+}
+#three{
+    background: blue;
+}
+#four{
+    background: green;
+}
+#five{
+    background:yellow;
+}
+#six{
+    background:orange;
+}
+#seven{
+    background: red;
+}

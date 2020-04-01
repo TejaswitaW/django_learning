@@ -1,0 +1,26 @@
+#top{
+    /* order of attributes doesnt matter */
+    border: red solid 10px;
+    width: 25%;
+    text-align: center;
+    /* padding:100px; */
+    /* top right bottom left */
+    padding:100px 200px 300px 400px;
+}
+/* #top{
+    border: 10px solid red;
+} */
+/* #top{
+    /* order of attributes doesnt matter */
+    /* border: red solid 10px;
+    width: 25%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}*/
+/* #top{
+    border: 10px solid red;
+} */ 
+/* Above things are applied for borders too */

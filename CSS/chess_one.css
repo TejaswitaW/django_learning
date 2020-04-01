@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+table{
+    border: rgb(19, 3, 27) 10px solid;
+    margin: auto;
+}
+td{
+    height: 50px;
+    width: 50px;
+}
+#white{
+    background: white;
+}
+#black{
+    background: black;
+}
+/* table.chess tr:hover td{
+    background: darkviolet;
+} */
