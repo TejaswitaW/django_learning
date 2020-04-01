@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    /* border: 10px solid royalblue; */
+    /* border-width: thick; */
+    /* margin: auto; */
+}
+table{
+    margin: auto;
+}
+td{
+    height: 100px;
+    width: 100px
+}
+.horizontal{
+    border-bottom:10px solid black ;
+    border-top:10px solid black ;
+}
+.vertical{
+    border-left:10px solid black ;
+    border-right:10px solid black ;
+}
+td:hover{
+    border: rgb(144, 124, 161) solid 2px;
+}
