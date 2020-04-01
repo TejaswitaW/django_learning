@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+    background: cornsilk;
+    font-family: 'Comic Neue', cursive;
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+}
+body{
+    background: cyan;
+}
+img{
+    height: 300px;
+    /* width: 300px; */
+    width: 30%;
+    border: darkred;
+    /* margin: auto; */
+    margin: 1.66%;
+    float: left;
+}
