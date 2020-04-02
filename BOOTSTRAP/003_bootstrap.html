@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo Buttons</title>
+    <!-- using bootstrap.css file -->
+    <!-- local configuration -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- overriding current style -->
+    <style>
+        .btn-success{
+            background: rgb(128, 9, 128);
+            color: teal;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is h1 tag</h1>
+    <h2>This is h2 tag</h2>
+    <h3>This is h3 tag</h3>
+    <h4>This is h4 tag</h4>
+    <!-- learning bootstrap buttons concept -->
+    <!-- Indicates a successful or positive action -->
+    <!-- i want large button -->
+    <!-- see the difference in button sizes  -->
+<button type="button" class="btn btn-success btn-lg">Success</button>
+<!-- this is active button -->
+<!-- for remaining when we take cursor on that then they become active-->
+<button type="button" class="btn btn-success active">Success</button>
+<!-- disabling the button -->
+<button type="button" class="btn btn-success" disabled="disabled">Success</button>
+<!-- this is extra small button -->
+<button type="button" class="btn btn-success btn-xs">Success</button><br>
+<!-- <p>
+    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    <button type="button" class="btn btn-default btn-lg">Large button</button>
+  </p> -->
+  <!-- using button class on <a> tag -->
+  <a class="btn btn-success" href="https://www.google.com" role="button">Click here to open google</a>
+</body>
+</html>
