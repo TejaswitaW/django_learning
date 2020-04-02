@@ -1,0 +1,32 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    text-align: center; 
+    background: rgb(233, 171, 233);
+    font-size: 20px;
+    border: rgb(33, 3, 61) 10px solid;
+    /* making top border as 0 pixel */
+    /* border-top: 0px; */
+    /* I dont want margin */
+    margin: 0;
+}
+/* h1{
+    text-align: center;
+} */
+p{
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+form{
+    font-size: 1.5em;
+}
+#button{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    font-size: 20px;
+    background: skyblue;
+    color: teal;
+    border-radius: 25px;
+    font-family: 'Dancing Script', cursive;
+}
