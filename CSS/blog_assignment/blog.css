@@ -1,0 +1,41 @@
+body{
+    border: 20px solid rgb(153, 9, 153);
+    padding: 20px;
+    /* width of body as 700px */
+    width: 800px;
+    /* means top and bottom 20px are required
+    left and right auto */
+    /* margin: 20px auto; */
+    margin:20px auto;
+    font-family: 'Playfair Display', serif;
+    background: darkgray;
+}
+/* first paragraph I want to define style */
+.mainp{
+    border-left: teal 5px solid;
+    padding-left: 5px;
+}
+.date{
+    text-transform: uppercase;
+    color: blue;
+    letter-spacing: 5px;
+}
+h3{
+    color: darkblue;
+    /* font size ,should double of content font size */
+    font-size: 2em;
+}
+/* post to post i want margin 
+after completing every post i want margin so bottom took*/
+.post{
+    margin-bottom: 20px;
+}
+/* search for hr styling */
+hr{
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
