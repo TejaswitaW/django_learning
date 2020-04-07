@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Demo</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- I want to define my own style -->
+    <style>
+        .box{
+            background: palegreen;
+            border: 1px solid blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- this is one row, we can take multiple rows -->
+        <!-- nested grid(grid inside grid) -->
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-lg-4 box">Nested Element 1</div>
+                    <div class="col-lg-4 box">Nested Element 2</div>
+                    <div class="col-lg-4 box">Nested Element 3</div>
+                </div>
+            </div>
+       </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-lg-4 box">Nested Element 1</div>
+                    <div class="col-lg-4 box">Nested Element 2</div>
+                    <div class="col-lg-4 box">Nested Element 3</div>
+                </div>
+            </div>
+       </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-lg-4 box">Nested Element 1</div>
+                    <div class="col-lg-4 box">Nested Element 2</div>
+                    <div class="col-lg-4 box">Nested Element 3</div>
+                </div>
+            </div>
+       </div>
+           
+    </div>
+</body>
+</html>
