@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load static %}
+{% block base_head %}
+<link rel="stylesheet" href='{% static "css/main.css" %}'>
+{% endblock %}
+{% block content %}
+
+
+<div class="myclass">
+    <h1>Hello, {{ title }}! We are working</h1>
+</div>
+<div class="myclass" class="container">
+    <div class="row">
+        <div class="col">
+            <p>{{ content }}</p>
+        </div>
+    </div>
+</div>
+<div class="col-sm-6 col-12">
+    <form method="POST">{% csrf_token %}
+        <!-- going to get django form -->
+        {{  contact_form }}
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
+{% endblock %}

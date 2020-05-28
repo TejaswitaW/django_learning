@@ -1,0 +1,7 @@
+{{ object.title }}
+{{ object.description|linebreaks}} <br>
+<!-- {{ object.image.url}} -->
+<!-- context is object -->
+{% if object.image %}
+<img src="{{ object.image.url}}" alt="Product Image" class="img-fluid" height="250" width="250">
+{% endif %}

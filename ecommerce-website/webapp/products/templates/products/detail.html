@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<div class='container'>
+    <div class='row'>
+        <div class='col'>
+            <h1>{{ object.title }}</h1>
+            {{ object.timestamp|timesince }} ago
+            <h3>{{ "some title here"|title }}</h3>
+            {{ object.description|linebreaks}} <br>
+            <!-- {{ object.image.url}} -->
+            <!-- context is object -->
+            <img src="{{ object.image.url}}" alt="Product Image" class="img-fluid" height="250" width="250">
+        </div>
+    </div>
+</div>
+{% endblock %}

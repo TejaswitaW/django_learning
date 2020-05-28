@@ -1,0 +1,15 @@
+{
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "python.linting.enabled": true,
+    "python.linting.pylamaEnabled": true,
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "python.pythonPath": "D:\\company-work\\ecommerce_website\\venv_ecommerce\\Scripts\\python.exe",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django"
+    ],
+    // "python.linting.pylintArgs": [
+    //     "--errors-only"
+    // ],
+}
