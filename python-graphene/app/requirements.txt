@@ -20,6 +20,6 @@ pytz==2020.1
 Rx==1.6.1
 singledispatch==3.4.0.3
 six==1.14.0
-sqlparse==0.3.1
+sqlparse==0.4.4
 toml==0.10.0
 wrapt==1.12.1
